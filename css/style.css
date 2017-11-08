@@ -1,0 +1,847 @@
+/*fonts
+font-family: 'Oswald', sans-serif; *Bebas sub*
+font-family: 'Work Sans', sans-serif; *helvetica nevu sub*
+font-family: 'Pacifico', cursive; 
+*/
+
+/*---Universal Styling--*/
+html {  
+box-sizing: border-box;
+min-height: 100%;
+}
+
+body {
+ position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: 'Work Sans', sans-serif;
+  color: #474747; 
+}
+
+.container {
+  width: auto;
+  max-width: 920px;
+  padding: 0 15px;
+}
+
+/*=======MEDIA QUERIES===========*/
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 200px ) {
+ 
+/*---Navigation Styling ---*/
+.navbar-brand {
+    font-family: 'Pacifico', cursive; 
+    font-size: 1.6em;
+}
+
+.nav-div {
+    text-align: center;
+    line-height: .6em;
+}
+
+.nav-span {
+    font-family: 'Oswald', sans-serif;
+    color: #a5a5a5;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-size: .7em;
+}
+
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: #3b3b3b;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #a5a5a5;
+}
+
+.active {
+    color:  black;
+    font-weight: 500;
+}
+
+    .carousel-indicators li {
+    background-color: gray;
+}
+.carousel-indicators .active {
+    background-color: black;
+}
+
+/*---Footer Styling ---*/
+
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	
+    font-size: .7em; 
+    
+    position: absolute;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          padding: 1rem;
+}
+
+.sm-icons {
+    width: 25px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+
+/*-----Home Page--------*/
+/*--Header style----*/
+    
+    .wordcloud {
+        width:100%;
+    }
+ 
+    figcaption {
+        font-family: 'Work Sans', sans-serif;
+        margin-top: -2%;        
+    }
+    
+    .fig-span {
+        color: #3b3b3b;
+        font-weight: 600;
+        font-family:'Oswald', sans-serif;
+        margin-top: 1%;
+    }
+
+/*---style for resume button---*/    
+    .img-wrapper {
+  position: relative;
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 5;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: left;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+    
+    .toplabel {
+        margin-top: 5%;
+        line-height: .2em;
+        font-size: .7em;
+        color: #9a9a9a;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+    }
+
+    .bottomlabel {
+        margin-bottom: 5%;
+        line-height: .2em;
+        font-size: 1.1em;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+    }
+    
+.btn {
+    border-radius: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #3e3e3e;
+    border: none;
+    text-decoration: none;
+    
+    }
+
+.btn:hover {
+       opacity: 0.8;
+    text-decoration: none;
+    }
+
+    /*---hr styling ---*/
+    .linebreak {
+        background-image:url("../img/linebreak.jpg");
+        width: 930px;
+        height: 5px;
+    }
+
+/*---slider styling----*/
+.works {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #474747;
+    }
+    
+    .myWorks {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+/*---Social media connection styles---*/
+    .socialmedia-connect {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+.connect {
+        font-size: 1.5em;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    }
+    
+    .connected {
+        list-style: none;
+        text-decoration: none;
+    }    
+    
+.connected a {
+        color: #474747;
+    text-decoration: none;
+    }
+    
+.connected a:hover {
+        opacity: .7;
+    }
+    
+    .icons {
+        width: 25px;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        padding-right: 2%;
+    }
+    
+    .big-timeline img {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .lil-timeline {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+/*-----About Page--------*/
+    .about {
+        margin-top:5%;
+    }
+    
+    .about h2 {
+        font-family: 'Oswald', sans-serif;
+        color: #474747;
+    }
+    
+    .about p {
+        font-family: 'Work Sans', sans-serif;
+        color: #474747;
+    }
+    
+    /*works with jquery fade*/
+    .hideme {
+        opacity: 0;
+    }
+    
+    
+ .software-skills h2 {
+        font-family: 'Oswald', sans-serif;
+       text-align: center;
+     margin-bottom: 3%;
+    }
+    
+    .skill-icon {
+        padding: 1.5%;
+    }
+    
+    .software-icon {
+        text-align: center;
+    }
+    
+    .design-skills h2 {
+        font-family: 'Oswald', sans-serif;
+       text-align: center;
+        margin-top: 5%;
+     margin-bottom: 1%;
+    }
+    
+    .design-icon {
+        padding: 1.5%;
+    }
+    
+    .design-icon {
+        text-align: center;
+    }
+    
+/*--Additional Skills--*/
+.wrapper{
+	width:470px;
+	margin:50px auto;
+}
+
+.wrapper:before,
+.wrapper:after {
+  display: table;
+  content: " ";
+}
+
+.wrapper:after{
+  clear: both;
+}
+
+/* Skills Style 5 */
+    
+    .skillset h2 {
+        margin-bottom: 10%;
+    }
+
+.skillset .skillbar{
+	width: 100%;
+	height: 20px;
+	background-color: #f1f1f1;
+	position:relative;
+	margin-bottom:30px;
+	padding:4px;
+	box-sizing:border-box;
+}
+.skillset .count-bar{
+	width: 100%;
+	height: 12px;
+	width:0px;
+	position:relative;
+}
+
+.skillset .count-bar.percent-color{
+background-color: darkgray;
+}
+
+.skillset .title{
+	position:absolute;
+	line-height:25px;
+	top:-25px;
+	left:0;
+	padding-left:10px;
+    font-family: 'Work Sans', sans-serif;
+}
+.skillset .count-bar .count{
+	position:absolute;
+	line-height:18px;
+	top:-28px;
+	right:-20px;
+	width: 40px;
+	height: 18px;
+	color:#fff;
+	text-align:center;
+}
+.skillset .count-bar .count span{
+	position:relative;
+	display:block;
+}
+.skillset .count-bar .count span:after{
+	position:absolute;
+	left:50%;
+	margin-left:-4px;
+	top:18px;
+	content:"";
+	border-left:4px solid transparent;
+	border-right:4px solid transparent;
+}
+
+.skillset .count-bar.percent-color .count{
+	background-color: #515151;
+}
+.skillset .count-bar.percent-color .count span:after{
+	border-top:4px solid #515151;
+}
+
+
+/*Custom Media Query Css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media only screen and (max-width: 767px) {
+	
+}
+
+
+
+/*--original css ---*/
+
+.skillset h2{
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        font-size: 1.5em;
+    }
+ 
+/*skill-chart at bottom */
+
+.skill-chart {
+  margin-top: 50px;
+}
+
+.skill-chart .skill-chart-item {
+  margin-bottom: 8px;
+  height: 45px;
+  background: #9ea8b6;
+  border-radius: 2px;
+  opacity: 0.8;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.skill-chart .skill-chart-item p {
+  color: #9ea8b6;
+  font-size: 1em;;
+  line-height: 25px;
+  padding-left: 15px;
+}
+
+.skill-chart .skill-chart-expand {
+  margin-top: 20px;
+}
+
+.skill-chart .skill-chart-expand:before {
+  display: block;
+  position: relative;
+  content: "";
+  width: 100%;
+  height: 1px;
+  margin-bottom: -10px;
+  background: #9ea8b6;
+}
+
+.skill-chart .skill-chart-expand .expand {
+  display: inline-block;
+  float: left;
+  width: 25%;
+}
+
+.skill-chart .skill-chart-expand .expand p {
+  color: #9ea8b6;
+  font-size: 14px;
+}
+
+.skill-chart .skill-chart-expand .expand:before {
+  display: block;
+  position: relative;
+  content: "";
+  width: 1px;
+  height: 10px;
+  margin: auto;
+  margin-bottom: 5px;
+  background: #9ea8b6;
+}
+
+.skill-chart .skill-chart-expand .expand.expand-left:before {
+  margin-left: 0;
+}
+
+.skill-chart .skill-chart-expand .expand.expand-right {
+  text-align: right;
+}
+
+.skill-chart .skill-chart-expand .expand.expand-right:before {
+  margin-right: 0;
+}
+
+@media( max-width:992px) {
+  .my-skill h2 {
+    font-size: 24px;
+  }
+  .skill-content span {
+    font-size: 16px;
+  }
+}
+
+@media( max-width:767px) {
+  .my-skill .skill {
+    margin-top: 50px;
+  }
+}
+}/*---media query end---*/    
+    
+
+@media( max-width:992px) {
+  .my-skill h2 {
+    font-size: 24px;
+  }
+  .skill-content span {
+    font-size: 16px;
+  }
+}
+
+@media( max-width:767px) {
+  .my-skill .skill {
+    margin-top: 50px;
+  }
+}
+}/*---media query end---*/
+
+/*-------PORTFOLIO PAGE -----------------------*/
+
+.breadcrumb {
+  font-family: 'Oswald', sans-serif;
+color: gray;  
+}
+
+.breadcrumb-item a {
+font-family: 'Oswald', sans-serif;
+color: gray;
+}
+
+.breadcrumb-item.active{
+font-family: 'Oswald', sans-serif;
+color: black;
+font-weight: 600;
+}
+
+.card-title {
+font-family: 'Oswald', sans-serif;
+font-size: 1em;
+}
+
+.card-text {
+  font-family: 'Work Sans', sans-serif;
+font-size: .8em;
+}
+
+.pacific {
+font-family: 'Pacifico', cursive;
+font-size: 1.2em;
+}
+
+.blockquote-footer p {
+  color: white;
+}
+
+.black-card {
+  background-color: black;
+}
+
+/*---Light B0x Styling---*/
+/* Style the Image Used to Trigger the Modal */
+.imageClass {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.imageClass:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+/*-------EXPERIENCE PAGE -----------------------*/
+.experience {
+    font-family: 'Oswald', sans-serif;
+    color: #474747;
+    margin-top: 5%;
+}
+
+.res-but {
+    text-align: left;
+}
+
+.res-but:hover {
+    opacity: .8;
+}
+
+.exp-header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.exp {
+    margin-bottom: 10%;
+    font-family: 'Work Sans', sans-serif;
+    font-size: .8em;
+}
+
+.exp-date {
+    margin-top: -3%;
+}
+
+
+
+/*-------EDUCATION PAGE -----------------------*/
+.treehouselink  {
+    text-decoration: none;
+    color:#474747;
+}
+
+.treehouselink:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.extra-padding {
+    margin-top: 5%; /*to help bring footer to bottom*/
+}
+
+.extra-padding2 {
+    margin-top: 15%; /*to help bring footer to bottom*/
+    background-color: yellow;
+}
+
+
+
+/*-------CONTACT PAGE -----------------------*/
+
+#minutes {
+    color: black;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+#seconds {
+    color: black;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+.blog-title {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 5%;
+    font-size: 2em;
+}
+
+.blog-description {
+  font-family: 'Work Sans', sans-serif;  
+  font-size: 1em;
+}
+
+.linebreak2 {
+    background-image:url("../img/linebreak.jpg");
+    width: 100%;
+    height: 5px;
+}
+
+.blog-main {
+    font-family: 'Work Sans', sans-serif;  
+}
+
+.or {
+    line-height: 5px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.options {
+    font-size: 1.2em;
+}
+
+.more-about h4 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10%;
+    
+}
+
+.more-about p {
+    font-family: 'Work Sans', sans-serif; 
+    font-size: .8em;
+}
+
+.sidebar-module h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+}
+
+.get-socialmedia-connect {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: .8em;
+    }
+    
+.get-connect {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    }
+    
+    .get-connected {
+        list-style: none;
+        text-decoration: none;
+    }    
+    
+.get-connected a {
+        color: #474747;
+    text-decoration: none;
+    }
+    
+.get-connected a:hover {
+        opacity: .7;
+    }
+    
+    .icons2 {
+        width: 20px;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        margin-right: 5%;
+        margin-left: -15%;
+    }
+
+.form-row {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+/*=======MEDIA QUERIES===========*/
+
+/* Small Devices (portrait and landscape) ----------- */
+@media only screen and (min-width : 576px) {
+    .footer-bottom {
+        font-size: .8em;         
+    }
+    
+         .more-about h4 {
+        font-family: 'Oswald', sans-serif;
+        margin-top: -16%;
+    }
+    
+
+
+.res-but {
+    text-align: right;
+}
+
+.exp-header {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.exp {
+    margin-bottom: 5%;
+    font-size: 1em;
+}
+
+.exp-date {
+    margin-top: -3%;
+}
+
+
+}/*---media query end---*/
+
+
+/* Medium Devices (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) {
+    
+    .more-about h4 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: -10%;
+    
+}
+    
+.exp-header {
+    font-size: 1.5em;
+}
+
+.exp {
+    margin-bottom: 5%;
+}
+
+.exp-date {
+    margin-top: -2%;
+}
+
+}/*---media query end---*/
+
+
+/* Large Devices (portrait and landscape) ----------- */
+@media only screen and (min-width : 992px) {
+    
+    
+}/*---media query end---*/
+
+/* Extra Large Devices (portrait and landscape) ----------- */
+@media only screen and (min-width : 1200px) {
+
+    
+}/*---media query end---*/

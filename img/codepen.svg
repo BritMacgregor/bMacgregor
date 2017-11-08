@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="38px"
+	 height="38px" viewBox="0 0 38 38" enable-background="new 0 0 38 38" xml:space="preserve">
+<g id="Layer_5">
+	<circle fill="#3B3B3B" cx="19.001" cy="19" r="18.5"/>
+</g>
+<g id="Layer_2" display="none">
+	
+		<image display="inline" overflow="visible" width="225" height="225" xlink:href="codepen.png"  transform="matrix(0.1107 0 0 0.1107 6.542 6.0835)">
+	</image>
+</g>
+<g id="Layer_3">
+	<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="19,30.708 31.125,22.667 31.125,14.292 19.001,6.292 
+		6.917,14.25 6.917,22.5 	"/>
+	<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="8.958,14.708 18.167,8.625 18.167,14.25 13.25,17.583 	"/>
+	<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="8.417,16.167 8.417,20.833 11.792,18.542 	"/>
+	<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="13.25,19.5 18.167,22.875 18.167,28.583 8.958,22.291 	"/>
+	<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="19.833,22.708 24.75,19.5 28.917,22.291 19.833,28.375 	"/>
+	<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="26.333,18.5 29.542,16.167 29.708,20.833 	"/>
+	<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="14.875,18.542 19,15.667 23.208,18.542 19.042,21.416 	"/>
+	<polygon fill="none" stroke="#FFFFFF" stroke-miterlimit="10" points="19.833,8.625 19.833,14.292 24.667,17.583 28.917,14.75 	"/>
+</g>
+</svg>
